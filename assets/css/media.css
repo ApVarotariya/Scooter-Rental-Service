@@ -5,8 +5,8 @@
   .h-nav-resp {
     height: 70px;
   }
-  .v-class-resp {
-    opacity: 0;
+  .rightnav.v-class-resp {
+    display: block;
   }
 
   .navbar {
@@ -17,20 +17,26 @@
     margin-left: 15px;
     cursor: pointer;
   }
-  .nav-right {
-    flex-direction: column;
-  }
-  .nav-right ul {
+  .rightnav {
+    justify-content: center;
     text-align: center;
-    margin-top: 50px;
+    align-items: center;
+    width: 100%;
+    display: none;
+    background-color: #ffffff;
+    padding-bottom: 30px;
+  }
+  .rightnav ul {
+    text-align: center;
+    margin-top: 10px;
     padding: 0;
   }
-  .nav-right ul li {
-    padding: 7px 0;
+  .rightnav ul li {
+    padding: 14px 0;
     display: block;
     margin: 0;
   }
-  .nav-right ul li a {
+  .rightnav ul li a {
     margin: 10px 0;
   }
   .mob-frame {
@@ -412,7 +418,7 @@
 }
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
-  .nav-right ul li {
+  .rightnav ul li {
     margin: 0;
   }
   .mob-frame {

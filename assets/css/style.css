@@ -28,20 +28,20 @@ header {
   padding: 10px 0;
   width: 1600px;
   max-width: 100%;
-  display: flex;
+  /* display: flex; */
   justify-content: center;
   margin: 0 auto;
   z-index: 9;
 }
-.logo {
+/* .logo {
   width: 20%;
   float: left;
-}
+} */
 .logo img {
   width: 50%;
   cursor: pointer;
 }
-.nav-right {
+.rightnav {
   margin: 0 auto;
   display: flex;
   justify-content: right;
@@ -49,26 +49,27 @@ header {
   width: 80%;
   text-align: right;
 }
-.nav-right ul {
+.rightnav ul {
   margin: 0 auto;
   padding: 7px 0 0 0;
   justify-content: space-evenly;
 }
-.nav-right ul li {
+.rightnav ul li {
   margin: 0 56px;
   display: inline;
   list-style: none;
 }
-.nav-right ul li a {
+.rightnav ul li a {
   font-weight: 600;
   text-decoration: none;
   letter-spacing: 1px;
   color: #000;
 }
-.nav-right ul li a:hover {
+.rightnav ul li a:hover {
   color: #00d285;
 }
 .book-btn {
+  display: inline-block;
   margin: 0 auto;
   padding: 10px 30px;
   background-color: #00d285;
@@ -85,6 +86,7 @@ header {
 .nav-btn:hover {
   color: white;
 }
+
 .burger {
   display: none;
   cursor: pointer;
